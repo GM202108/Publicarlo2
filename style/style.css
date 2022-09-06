@@ -1,0 +1,293 @@
+h1 {
+  font-family: "Bebas Neue", cursive;
+}
+
+.Style-R {
+  height: auto;
+  width: 200px;
+}
+
+.imagenfondo {
+  background-image: url(../img/ChicoFondo.PNG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #f7b614;
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+  border-radius: 66px 0px 66px 0px;
+}
+
+.click {
+  text-decoration: none;
+  color: black;
+}
+
+.click:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.Titulo {
+  font-size: 80px;
+}
+.Inicio-color {
+  background: #f7b614;
+}
+
+.style-form {
+  border-radius: 66px 0px 66px 0px;
+  background: linear-gradient(315deg, #24252d, #2b2c36);
+  box-shadow: -20px -20px 40px #18191f, 20px 20px 40px #383946;
+}
+.Color-container2 {
+  background: #282932;
+}
+.Logo {
+  height: auto;
+  width: 200px;
+}
+
+.center-botton {
+  display: flex;
+  align-items: center;
+}
+
+.text-alineacion {
+  text-align: justify;
+}
+
+.style-div {
+  border-radius: 50px;
+  background: #ffffff;
+  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+}
+
+.container-sections {
+  gap: 2rem;
+}
+
+section img {
+  width: 800px;
+  height: auto;
+}
+
+.ImgF {
+  border-bottom: solid 2px #636262;
+  padding-bottom: 20px;
+}
+
+.icon-fb {
+  color: #f7b614;
+  font-size: 25px;
+  transition: color 1s;
+}
+
+.icon-fb:hover {
+  color: #161616;
+  font-size: 25px;
+}
+
+.icon-ig {
+  color: #f7b614;
+  transition: color 1s;
+  font-size: 25px;
+}
+
+.icon-ig:hover {
+  color: #161616;
+  font-size: 25px;
+}
+
+.icon-link {
+  color: #f7b614;
+  transition: color 1s;
+  font-size: 25px;
+}
+
+.icon-link:hover {
+  color: #161616;
+  font-size: 25px;
+}
+
+.hovt2 {
+  color: #ffffff;
+  transition: color 0.5s;
+  text-decoration: none;
+}
+
+.hovt2:hover {
+  color: #f7b614;
+}
+
+.hovt {
+  color: #727272;
+  transition: color 0.5s;
+}
+
+.hovt:hover {
+  color: #f7b614;
+}
+
+.center-botton2 {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+}
+
+.center-botton2 a {
+  text-decoration: none;
+}
+
+@media (max-width: 576px) {
+  .container-sections {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+  .Titulo {
+    font-size: 50px;
+  }
+
+  .ttl {
+    justify-content: center;
+  }
+
+  .Inicio-color {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  * {
+    justify-content: center;
+  }
+
+  .ventajas {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn-82 {
+    display: grid;
+    width: 100px;
+    height: auto;
+  }
+
+  .btn-101 {
+    display: grid;
+    width: 50px;
+    font-size: 12px;
+    height: auto;
+    margin: 15px;
+  }
+
+  section img {
+    width: 200px;
+    height: auto;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  footer .redes {
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  footer .servicios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-sections {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+  .Titulo {
+    font-size: 50px;
+  }
+
+  .ttl {
+    justify-content: center;
+  }
+
+  .Inicio-color {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  * {
+    justify-content: center;
+  }
+
+  .ventajas {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn-82 {
+    display: grid;
+    width: 100px;
+    height: auto;
+  }
+
+  .btn-101 {
+    display: grid;
+    width: 50px;
+    font-size: 12px;
+    height: auto;
+    margin: 15px;
+  }
+
+  section img {
+    width: 200px;
+    height: auto;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  footer .redes {
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  footer .servicios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+  }
+}
